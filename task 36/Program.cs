@@ -12,5 +12,5 @@ for (int i = 0; i < n; i ++)
      }
     
 Console.WriteLine();
-Console.Write($"сумма = {sum}");
+Console.Write($"сумма нечетных позиций = {sum}");
     
