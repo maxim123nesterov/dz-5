@@ -5,7 +5,7 @@ int[] arr = new int[n];
 int sum = 0;
 for (int i = 0; i < n; i ++)
      {
-        arr[i] = new Random().Next(0, 10);
+        arr[i] = new Random().Next(-10, 10);
      Console.Write($" {arr[i]}");
         if (i % 2 == 1)
         sum = sum + arr[i];
